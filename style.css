@@ -1,5 +1,5 @@
 header{
-    background-color: #d14635;
+    background-color: rgb(236, 120, 43);
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -18,8 +18,25 @@ header img{
     align-content: center;
 }
 
+#tuich{
+    font-size: 30px;
+    color: black;
+}
 
 
 #carouselExampleCaptions h5, p{
     color: black;
+}
+
+.carta_imagen{
+    height: 400px;
+    width: 400px;
+}
+
+.carta_titulo{
+    font-size: 40px;
+}
+
+.carta_texto{
+    font-size: 30px;
 }
