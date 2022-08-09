@@ -40,3 +40,29 @@ header img{
 .carta_texto{
     font-size: 30px;
 }
+
+body{
+    background-image: url('https://media.discordapp.net/attachments/1002436626686951475/1006640254859612231/552ad461-50fa-46e5-b6af-262243717c2b-profile_banner-480.jpeg');
+    background-size: 100%;
+}
+
+#chofaverso{
+    color: #c6c6ca;
+}
+
+#tema{
+    color: red;
+}
+
+#titulo_esencia{
+    color: red;
+}
+
+#texto_esencia{
+    color: red;
+}
+
+#esencia{
+    color: red;
+    font-size: 30px;
+}
