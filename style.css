@@ -81,3 +81,52 @@ body{
 #rojo{
     color: red;
 }
+
+.marco{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.marco ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slider  14s infinite alternate ease-in;
+}
+
+.marco li{
+    width: 100%;
+    list-style: none;
+}
+
+.marco img{
+    width: 100%;
+}
+
+.caja{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.caja p{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+@keyframes slider {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    75%{margin-left: -200%;}
+
+    80%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
