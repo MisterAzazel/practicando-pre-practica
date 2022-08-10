@@ -66,3 +66,17 @@ body{
     color: red;
     font-size: 30px;
 }
+
+.carrusel_titulo{
+    color: rgb(184, 5, 5);
+    font-size: 35px;
+}
+
+.carrusel_descripcion{
+    color: rgb(184, 5, 5);;
+    font-size: 25px;
+}
+
+#rojo{
+    color: red;
+}
