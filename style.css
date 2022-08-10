@@ -44,6 +44,7 @@ header img{
 body{
     background-image: url('https://media.discordapp.net/attachments/1002436626686951475/1006640254859612231/552ad461-50fa-46e5-b6af-262243717c2b-profile_banner-480.jpeg');
     background-size: 100%;
+    background-repeat: no-repeat round;
 }
 
 #chofaverso{
