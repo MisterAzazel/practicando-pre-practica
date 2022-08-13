@@ -115,9 +115,22 @@ body{
 
 .caja p{
     position: absolute;
-    bottom: 10px;
+    bottom: 40px;
     left: 30%;
     font-size: 30px;color: red;
+}
+
+.caja h5{
+    position: absolute;
+    bottom: 90px;
+    left: 46%;
+    font-size: 40px;color: red;
+}
+
+.caja button{
+    position: absolute;
+    bottom: 10px;
+    left: 47%;
 }
 
 @keyframes slider {
@@ -132,4 +145,57 @@ body{
 
     80%{margin-left: -300%;}
     100%{margin-left: -300%;}
+}
+
+.perfil{
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    height: auto;
+    left: 5%;
+}
+
+.perfil img{
+    position: absolute;
+    border-radius: 170px;
+    width: 300px;
+    border: 10px solid rgb(114, 21, 122);
+    height: 300px;
+}
+
+#carta_perfil{
+    border-radius: 170px;
+    border: 10px solid rgb(114, 21, 122);
+    height: 300px;
+    width: 100%;
+    top: 10%;
+    position: absolute;
+}
+
+.perfil h5{
+    position: absolute;
+    top: 20px;
+    left: 46%;
+    font-size: 40px;
+    color: solid rgb(114, 21, 122);
+}
+
+.perfil p{
+    position: absolute;
+    top: 80px;
+    left: 25%;
+    font-size: 31px;
+    color: solid rgb(114, 21, 122);
+}
+
+#twitch{
+    position: absolute;
+    top: 30px;
+    left: 24%;
+    color: solid rgb(114, 21, 122);
+}
+
+#bastardos{
+    font-size: 40px;
+    color: rgb(114, 21, 122);
 }
